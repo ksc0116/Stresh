@@ -19,8 +19,7 @@ typedef struct _UIButton
     void (*onHighlight)(struct _UIButton*);
 	void (*onDeHighlight)(struct _UIButton*);
     void (*onClick)(struct _UIButton*);
-}
-UIButton;
+}UIButton;
 
 void StartButton(UIButton* _button);
 void HowToPlayButton(UIButton* _button);

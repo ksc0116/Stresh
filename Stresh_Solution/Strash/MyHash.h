@@ -8,4 +8,4 @@ typedef struct _tagMyHash
 	Texture* m_texture;
 }MyHash;
 
-int MyHash_Hash(LPCTSTR _key);
+unsigned int MyHash_Hash(LPCTSTR _key);
