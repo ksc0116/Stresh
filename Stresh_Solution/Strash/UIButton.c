@@ -111,7 +111,7 @@ void ButtonHighlighting(UIButton* _button)
 	//SetWindowText(g_hWnd, buffer);
 }
 
-void ButtonDeHighlighint(UIButton* _button)
+void ButtonDeHighlighing(UIButton* _button)
 {
     g_isButtonHighlighting = FALSE;
     _button->m_drawRect = Vector2i_Zero;

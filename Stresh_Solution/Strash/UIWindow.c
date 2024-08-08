@@ -156,7 +156,7 @@ void UIMainTitleInit()
     UIWindow_mainWindow.uiButtons[UIWindow_mainWindow.buttonImageIndex].m_areaOrigin = UIWindow_mainWindow.uiButtons[UIWindow_mainWindow.buttonImageIndex].m_area;
     UIWindow_mainWindow.uiButtons[UIWindow_mainWindow.buttonImageIndex].onClick = StartButton;
     UIWindow_mainWindow.uiButtons[UIWindow_mainWindow.buttonImageIndex].onHighlight = ButtonHighlighting;
-    UIWindow_mainWindow.uiButtons[UIWindow_mainWindow.buttonImageIndex].onDeHighlight = ButtonDeHighlighint;
+    UIWindow_mainWindow.uiButtons[UIWindow_mainWindow.buttonImageIndex].onDeHighlight = ButtonDeHighlighing;
     Vector2i Pos = { 1708,709 };
     UIWindow_mainWindow.uiButtons[UIWindow_mainWindow.buttonImageIndex].position = Pos;
     UIWindow_mainWindow.buttonImageIndex++;

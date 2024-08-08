@@ -33,7 +33,7 @@ void JustDestroyWindow();
 
 
 void ButtonHighlighting(UIButton* _button);
-void ButtonDeHighlighint(UIButton* _button);
+void ButtonDeHighlighing(UIButton* _button);
 
 void GoToMainTitle();
 void CallBack_GoToMainTitle();
